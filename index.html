@@ -1,0 +1,273 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Introduction</title>
+    <style>
+       hr{
+        border-style:double;
+        border-color:blue;        
+       }
+      .top img{
+        position: fixed;
+        right:0px;
+       }
+       .bottom img{
+        position: fixed;
+        left:0px;
+       }
+       
+    </style>
+</head>
+<body>
+<hr>
+    <h1 style="color: red; background-color:azure;display: inline;">Introduction to HTML✏
+        <img src="html.png" alt="html" width="40px" height="40px" style="float:left;">
+    </h1>
+    <nav style="background-color:lightyellow">
+        <a href="#header">Header</a>|
+        <a href="#paragraph">Paragraph</a>|
+        <a href="#div">Div</a>|
+        <a href="#span">Span</a>|
+        <a href="#formattag">Format Tag</a>
+    </nav>
+
+<hr>
+<div class="top">
+    <a href="#"><img src="top.jfif" alt="top" width="30px" height="30px" title="Press here to go to top of the page"></a>
+  
+  </div>
+  <div class="bottom">
+    <a href="#bottom"><img src="down.png" alt="down" width="30px" height="30px" title="Press here to go to top of the page"></a>
+  </div>
+<p>Paragraph 1</p>
+&copy;
+&reg;
+<hr>
+<h1 id="header">Header1</h1>
+<h2>Header2</h2>
+<h3>Header3</h3>
+<h4>Header4</h4>
+<h5>Header5</h5>
+<h6>Header6</h6>
+<hr>
+<p id="paragraph">This is first paragraph</p>
+<p>This is second paragraph</p>
+<p>This is third paragraph</p>
+<hr>
+<div id="div">This is a div tag</div>
+<div>
+    <h3><abbr title="Hyper Text Markup Language">HTML</abbr></h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum natus adipisci iste delectus laudantium vero. Aspernatur at totam quisquam similique magni, quod quos nostrum vero doloribus! Ut iure maiores animi, provident consequuntur deleniti, modi, suscipit veniam quaerat nam laudantium rem quidem dolore vel laborum. Alias iusto voluptates facilis sunt molestias.</p>
+</div>
+<hr>
+<span id="span"><mark>Span Element1</mark></span>
+<span><mark>Span Element2</mark></span>
+<hr>
+<strong id="formattag">strong</strong><br>
+<b>bold</b><br>
+<em>emphasis</em><br>
+<i>italic</i><br>
+<ins>inserted tag</ins><br>
+<u>underline tag</u><br>
+<del>deleted tag</del><br>
+<small>small tag</small><br>
+Today date is 25<sup>th</sup>May, 2022<br><br>
+Formula for water is H<sub>2</sub>O
+<hr>
+<a href="test.html">Test</a>
+<a href="http://google.com" target="_blank">Google</a>
+<hr>
+<a href="mailto:saravanan@itvedant.com">Email</a>
+<hr>
+<ol type="1" start="1">
+    <li>HTML5</li>
+    <li>CSS</li>
+    <li>Java Script</li>
+</ol>
+<ul style="list-style:square;">
+    <li>Python</li>
+    <li>Java</li>
+    <li>C++</li>
+</ul>
+<dl>
+    <dt>Python:</dt>
+    <dd>Python is object oriented
+        programming language
+    </dd>
+    
+    <dt>JQuery:</dt>
+    <dd>JQuery is a framework language
+        where we can import from library.
+    </dd>
+</dl>
+<hr>
+<table border="1" width="300" cellspacing="5" cellpadding="0" align="center">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Contact</th>
+    </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+            <td>Saravanan</td>
+            <td>25</td>
+            <td>9945206195</td>
+        </tr>
+        <tr>
+            <td>Anil</td>
+            <td>25</td>
+            <td>9945206195</td>
+            </tr>
+    </tbody>
+</thead>
+</table>
+<hr>
+<form action="welcome.php" method="post">
+    Name: <input type="text" name="name"><br>
+    E-mail: <input type="text" name="email"><br>
+    <input type="submit">
+    </form>
+    <hr>
+    <p>Choose your favorite Web language:</p>
+
+    <form action="action.php">
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label><br><br>
+      <input type="submit">
+    </form> 
+    <br>
+    <hr>
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+      <br>
+      <hr>
+      <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+<hr>
+<form>
+    <h2>Quantity (between 1 and 5):</h2>
+    <input type="number" name="quantity" min="1" max="5">
+  </form>
+  <br><br>
+  <h2>Range from 0 to 10</h2>
+  <form>
+    <input type="range" name="points" min="0" max="10">
+  </form>
+<br>
+<br><br>
+<h2>Selecting Color</h2>
+<form>
+  Select your favorite color:
+  <input type="color" name="favcolor">
+  <br>
+  <h2>Restrict the date</h2>
+  <form>
+    Enter a date before 1980-01-01:
+    <input type="date" name="bday" max="1979-12-31"><br>
+    Enter a date after 2000-01-01:
+    <input type="date" name="bday" min="2000-01-02"><br>
+  </form><br>
+  <textarea rows="4" cols="50">
+    at itvedant.com you can learn web designing
+    </textarea>
+</form>
+<br>
+<br><br>
+<h2>DataList</h2>
+<input list="browsers">
+<datalist id="browsers">
+<option value="Internet Explorer">
+<option value="Firefox">
+<option value="Chrome">
+<option value="Opera">
+<option value="Safari">
+</datalist>
+<br><br>
+<h2>Validation</h2>
+  Username: <input type="text" name="username" required>
+<br><br>
+<h2>FieldSet</h2>
+<form>
+    <fieldset>
+      <legend>Personalia:</legend>
+      Name: <input type="text"><br>
+      Email: <input type="text"><br>
+      Date of birth: <input type="date">
+    </fieldset>
+  </form><br><br>
+  <fieldset>
+    <legend>Personalia:</legend>
+    Name: <input type="text" size="30"><br>
+    Email: <input type="text" size="30"><br>
+    Date of birth: <input type="date">
+  </fieldset><br><br>
+  <iframe src="http://itvedant.com" width="430px"
+  height="200px" frameborder="1"></iframe>
+
+  <details>
+    <summary>Epcot Center</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details>
+  <hr>
+  <audio controls autoplay muted>
+    <source src="https://filesamples.com/samples/audio/mp3/sample4.mp3" type="audio/mp3"/>
+    Audio is not supported
+    </audio>
+    <hr>
+    <svg width="200" height="200" style="border:green solid">
+      <circle cx="100" cy="100" r=50 fill="cyan" stroke="red"
+      stroke-width="4"></circle>
+      </svg>
+      <br>
+      <hr>
+      <svg width="400" height="300" style="border:green solid">
+        <rect width="150" height="80" x="50" y="50" rx="10" ry="10" fill="yellow" stroke="red" stroke-width="5"></rect>
+        </svg>
+        
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div id="bottom"></div>
+
+</body>
+</html>
